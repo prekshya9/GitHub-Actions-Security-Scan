@@ -38,9 +38,11 @@ To introduce security automation in DevOps pipelines by running a security scan 
    
    ## Reflection Questions
    1. What does the script do when a user submits their name?
-   2. Why might this be dangerous in a real-world app?
+     - It takes the user name and display it directly to the page 
+   2. Why might this be dangerous in a real-world app? 
+      -iT might be dangerous cause hacker can change the Heading to some error message which lead
    3. What could you do to make it safer?
-
+      - By allwoing only plain text 
 5. **Save your changes and push:**
    ```bash
    git add index.js README.md
